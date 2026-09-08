@@ -1,4 +1,4 @@
-name: CI CD for dockerised APP with docker volume and mount
+name: CI CD for dockerised APP with for fastAPI
 
 on:
   push:

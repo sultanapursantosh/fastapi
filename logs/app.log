@@ -1,0 +1,298 @@
+2026-09-07 14:28:48,522 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-07 14:28:48,522 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-07 14:28:48,530 - INFO -  * Restarting with stat
+2026-09-07 14:28:48,841 - WARNING -  * Debugger is active!
+2026-09-07 14:28:48,844 - INFO -  * Debugger PIN: 438-987-695
+2026-09-07 14:32:53,841 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-07 14:32:53,872 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-07 14:32:53,873 - INFO -  * Restarting with stat
+2026-09-07 14:32:54,109 - WARNING -  * Debugger is active!
+2026-09-07 14:32:54,111 - INFO -  * Debugger PIN: 438-987-695
+2026-09-07 14:33:02,867 - DEBUG - Entered home() function
+2026-09-07 14:33:02,867 - INFO - Home page requested
+2026-09-07 14:33:02,867 - WARNING - This is a warning example
+2026-09-07 14:33:02,868 - INFO - 127.0.0.1 - - [07/Sep/2026 14:33:02] "GET / HTTP/1.1" 200 -
+2026-09-07 14:33:20,208 - DEBUG - Entered home() function
+2026-09-07 14:33:20,208 - INFO - Home page requested
+2026-09-07 14:33:20,208 - WARNING - This is a warning example
+2026-09-07 14:33:20,209 - INFO - 127.0.0.1 - - [07/Sep/2026 14:33:20] "GET / HTTP/1.1" 200 -
+2026-09-07 14:33:21,157 - DEBUG - Entered home() function
+2026-09-07 14:33:21,157 - INFO - Home page requested
+2026-09-07 14:33:21,157 - WARNING - This is a warning example
+2026-09-07 14:33:21,158 - INFO - 127.0.0.1 - - [07/Sep/2026 14:33:21] "GET / HTTP/1.1" 200 -
+2026-09-07 14:35:54,031 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\GIT_REST_API\\app.py', reloading
+2026-09-07 14:35:54,077 - INFO -  * Restarting with stat
+2026-09-07 14:35:54,340 - WARNING -  * Debugger is active!
+2026-09-07 14:35:54,342 - INFO -  * Debugger PIN: 438-987-695
+2026-09-07 14:36:10,610 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-07 14:36:10,610 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-07 14:36:10,611 - INFO -  * Restarting with stat
+2026-09-07 14:36:10,841 - WARNING -  * Debugger is active!
+2026-09-07 14:36:10,843 - INFO -  * Debugger PIN: 438-987-695
+2026-09-07 14:36:32,953 - INFO - 127.0.0.1 - - [07/Sep/2026 14:36:32] "[33mGET /55 HTTP/1.1[0m" 404 -
+2026-09-07 14:36:53,664 - INFO - 127.0.0.1 - - [07/Sep/2026 14:36:53] "[33mGET /success<55> HTTP/1.1[0m" 404 -
+2026-09-07 14:37:28,435 - INFO - 127.0.0.1 - - [07/Sep/2026 14:37:28] "GET /success55 HTTP/1.1" 200 -
+2026-09-07 14:41:53,466 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\GIT_REST_API\\app.py', reloading
+2026-09-07 14:41:53,525 - INFO -  * Restarting with stat
+2026-09-07 14:41:53,787 - WARNING -  * Debugger is active!
+2026-09-07 14:41:53,789 - INFO -  * Debugger PIN: 438-987-695
+2026-09-07 14:42:31,002 - INFO - 127.0.0.1 - - [07/Sep/2026 14:42:31] "GET /success/55 HTTP/1.1" 200 -
+2026-09-07 14:42:52,761 - INFO - 127.0.0.1 - - [07/Sep/2026 14:42:52] "GET /success/95 HTTP/1.1" 200 -
+2026-09-08 13:03:52,110 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:03:52,110 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:03:52,112 - INFO -  * Restarting with stat
+2026-09-08 13:03:52,393 - WARNING -  * Debugger is active!
+2026-09-08 13:03:52,396 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:04:02,673 - INFO - 127.0.0.1 - - [08/Sep/2026 13:04:02] "GET /success/95 HTTP/1.1" 200 -
+2026-09-08 13:04:11,917 - INFO - 127.0.0.1 - - [08/Sep/2026 13:04:11] "GET /form HTTP/1.1" 200 -
+2026-09-08 13:05:14,034 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:05:14,034 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:05:14,035 - INFO -  * Restarting with stat
+2026-09-08 13:05:14,249 - WARNING -  * Debugger is active!
+2026-09-08 13:05:14,252 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:05:19,904 - INFO - 127.0.0.1 - - [08/Sep/2026 13:05:19] "GET /form HTTP/1.1" 200 -
+2026-09-08 13:05:31,609 - INFO - 127.0.0.1 - - [08/Sep/2026 13:05:31] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:05:32,009 - INFO - 127.0.0.1 - - [08/Sep/2026 13:05:32] "GET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-09-08 13:05:32,085 - INFO - 127.0.0.1 - - [08/Sep/2026 13:05:32] "GET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-09-08 13:05:32,456 - INFO - 127.0.0.1 - - [08/Sep/2026 13:05:32] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=hrMOFngtu2vzekfNEYc2 HTTP/1.1" 200 -
+2026-09-08 13:05:32,708 - INFO - 127.0.0.1 - - [08/Sep/2026 13:05:32] "GET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-09-08 13:07:15,045 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\GIT_REST_API\\app.py', reloading
+2026-09-08 13:07:15,103 - INFO -  * Restarting with stat
+2026-09-08 13:07:15,363 - WARNING -  * Debugger is active!
+2026-09-08 13:07:15,365 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:07:25,317 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:25] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:07:25,449 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:25] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:07:25,565 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:25] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:07:25,894 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:25] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=wlG6xSx3gW6ahD3vSvre HTTP/1.1" 200 -
+2026-09-08 13:07:26,149 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:26] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:07:35,713 - DEBUG - Entered home() function
+2026-09-08 13:07:35,713 - INFO - Home page requested
+2026-09-08 13:07:35,714 - WARNING - This is a warning example
+2026-09-08 13:07:35,715 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:35] "GET / HTTP/1.1" 200 -
+2026-09-08 13:07:42,482 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:42] "GET /form HTTP/1.1" 200 -
+2026-09-08 13:07:56,020 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:56] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:07:56,315 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:56] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:07:56,357 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:56] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:07:56,699 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:56] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png&s=wlG6xSx3gW6ahD3vSvre HTTP/1.1[0m" 304 -
+2026-09-08 13:07:56,945 - INFO - 127.0.0.1 - - [08/Sep/2026 13:07:56] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:13:55,019 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\GIT_REST_API\\app.py', reloading
+2026-09-08 13:13:55,115 - INFO -  * Restarting with stat
+2026-09-08 13:13:55,791 - WARNING -  * Debugger is active!
+2026-09-08 13:13:55,799 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:14:16,934 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:14:16,935 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:14:16,938 - INFO -  * Restarting with stat
+2026-09-08 13:14:17,930 - WARNING -  * Debugger is active!
+2026-09-08 13:14:17,939 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:14:31,369 - DEBUG - Entered home() function
+2026-09-08 13:14:31,369 - INFO - Home page requested
+2026-09-08 13:14:31,371 - WARNING - This is a warning example
+2026-09-08 13:14:31,372 - INFO - 127.0.0.1 - - [08/Sep/2026 13:14:31] "GET / HTTP/1.1" 200 -
+2026-09-08 13:14:44,840 - INFO - 127.0.0.1 - - [08/Sep/2026 13:14:44] "GET /form HTTP/1.1" 200 -
+2026-09-08 13:14:57,728 - INFO - 127.0.0.1 - - [08/Sep/2026 13:14:57] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:14:58,133 - INFO - 127.0.0.1 - - [08/Sep/2026 13:14:58] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:14:58,208 - INFO - 127.0.0.1 - - [08/Sep/2026 13:14:58] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:14:58,554 - INFO - 127.0.0.1 - - [08/Sep/2026 13:14:58] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=ZbwSPz0kFTGY8m9oNETs HTTP/1.1" 200 -
+2026-09-08 13:14:58,825 - INFO - 127.0.0.1 - - [08/Sep/2026 13:14:58] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:17:22,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:17:22,815 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:17:22,816 - INFO -  * Restarting with stat
+2026-09-08 13:17:23,049 - WARNING -  * Debugger is active!
+2026-09-08 13:17:23,052 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:17:32,756 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:32] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:17:32,941 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:32] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:17:32,979 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:32] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:17:33,308 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:33] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=eG0HrxItzXzvV6PiyzXQ HTTP/1.1" 200 -
+2026-09-08 13:17:33,575 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:33] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:17:42,632 - DEBUG - Entered home() function
+2026-09-08 13:17:42,632 - INFO - Home page requested
+2026-09-08 13:17:42,632 - WARNING - This is a warning example
+2026-09-08 13:17:42,632 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:42] "GET / HTTP/1.1" 200 -
+2026-09-08 13:17:48,290 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:48] "GET /form HTTP/1.1" 200 -
+2026-09-08 13:17:59,223 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:59] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:17:59,264 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:59] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:17:59,476 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:59] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:17:59,827 - INFO - 127.0.0.1 - - [08/Sep/2026 13:17:59] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png&s=eG0HrxItzXzvV6PiyzXQ HTTP/1.1[0m" 304 -
+2026-09-08 13:18:00,076 - INFO - 127.0.0.1 - - [08/Sep/2026 13:18:00] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:19:28,112 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\GIT_REST_API\\app.py', reloading
+2026-09-08 13:19:28,144 - INFO -  * Restarting with stat
+2026-09-08 13:19:28,378 - WARNING -  * Debugger is active!
+2026-09-08 13:19:28,381 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:19:36,241 - INFO - 127.0.0.1 - - [08/Sep/2026 13:19:36] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:19:56,897 - INFO - 127.0.0.1 - - [08/Sep/2026 13:19:56] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:20:38,857 - INFO - 127.0.0.1 - - [08/Sep/2026 13:20:38] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:29:10,622 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:29:10,622 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:29:10,626 - INFO -  * Restarting with stat
+2026-09-08 13:29:10,864 - WARNING -  * Debugger is active!
+2026-09-08 13:29:10,866 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:29:22,882 - INFO - 127.0.0.1 - - [08/Sep/2026 13:29:22] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:29:41,444 - INFO - 127.0.0.1 - - [08/Sep/2026 13:29:41] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:33:42,998 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:33:42,998 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:33:43,000 - INFO -  * Restarting with stat
+2026-09-08 13:33:43,249 - WARNING -  * Debugger is active!
+2026-09-08 13:33:43,252 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:33:53,730 - INFO - 127.0.0.1 - - [08/Sep/2026 13:33:53] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:34:08,700 - INFO - 127.0.0.1 - - [08/Sep/2026 13:34:08] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:38:49,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:38:49,168 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:38:49,169 - INFO -  * Restarting with stat
+2026-09-08 13:38:49,375 - WARNING -  * Debugger is active!
+2026-09-08 13:38:49,377 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:39:06,635 - INFO - 127.0.0.1 - - [08/Sep/2026 13:39:06] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:39:16,329 - INFO - 127.0.0.1 - - [08/Sep/2026 13:39:16] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:39:36,997 - INFO - 127.0.0.1 - - [08/Sep/2026 13:39:36] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:51:19,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:51:19,473 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:51:19,474 - INFO -  * Restarting with stat
+2026-09-08 13:51:19,742 - WARNING -  * Debugger is active!
+2026-09-08 13:51:19,745 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:51:28,346 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:28] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:51:39,515 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:39] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:51:39,684 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:39] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:51:39,862 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:39] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:51:40,194 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:40] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=8DlZX52ulCHo3CAohRw6 HTTP/1.1" 200 -
+2026-09-08 13:51:40,459 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:40] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:51:54,641 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:54] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:51:54,692 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:54] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:51:55,010 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:55] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:51:55,345 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:55] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png&s=8DlZX52ulCHo3CAohRw6 HTTP/1.1[0m" 304 -
+2026-09-08 13:51:55,592 - INFO - 127.0.0.1 - - [08/Sep/2026 13:51:55] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:54:45,065 - INFO - 127.0.0.1 - - [08/Sep/2026 13:54:45] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:54:45,085 - INFO - 127.0.0.1 - - [08/Sep/2026 13:54:45] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:54:45,311 - INFO - 127.0.0.1 - - [08/Sep/2026 13:54:45] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:54:45,642 - INFO - 127.0.0.1 - - [08/Sep/2026 13:54:45] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png&s=8DlZX52ulCHo3CAohRw6 HTTP/1.1[0m" 304 -
+2026-09-08 13:54:45,892 - INFO - 127.0.0.1 - - [08/Sep/2026 13:54:45] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:57:23,303 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 13:57:23,303 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 13:57:23,305 - INFO -  * Restarting with stat
+2026-09-08 13:57:23,605 - WARNING -  * Debugger is active!
+2026-09-08 13:57:23,609 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 13:57:32,648 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:32] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:57:32,769 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:32] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:57:32,893 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:32] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:57:33,236 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:33] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=Qdvddka8WUhJqB63xr9C HTTP/1.1" 200 -
+2026-09-08 13:57:33,474 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:33] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:57:38,298 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:38] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:57:38,589 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:38] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:57:38,655 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:38] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:57:38,976 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:38] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png&s=Qdvddka8WUhJqB63xr9C HTTP/1.1[0m" 304 -
+2026-09-08 13:57:39,234 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:39] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 13:57:42,291 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:42] "GET /form HTTP/1.1" 200 -
+2026-09-08 13:57:54,182 - INFO - 127.0.0.1 - - [08/Sep/2026 13:57:54] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:58:31,953 - INFO - 127.0.0.1 - - [08/Sep/2026 13:58:31] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:59:08,533 - INFO - 127.0.0.1 - - [08/Sep/2026 13:59:08] "POST /form HTTP/1.1" 200 -
+2026-09-08 13:59:17,345 - INFO - 127.0.0.1 - - [08/Sep/2026 13:59:17] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 13:59:17,640 - INFO - 127.0.0.1 - - [08/Sep/2026 13:59:17] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 13:59:17,691 - INFO - 127.0.0.1 - - [08/Sep/2026 13:59:17] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 13:59:18,027 - INFO - 127.0.0.1 - - [08/Sep/2026 13:59:18] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png&s=Qdvddka8WUhJqB63xr9C HTTP/1.1[0m" 304 -
+2026-09-08 13:59:18,276 - INFO - 127.0.0.1 - - [08/Sep/2026 13:59:18] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 14:02:09,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 14:02:09,470 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 14:02:09,470 - INFO -  * Restarting with stat
+2026-09-08 14:02:09,721 - WARNING -  * Debugger is active!
+2026-09-08 14:02:09,723 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 14:02:17,713 - INFO - 127.0.0.1 - - [08/Sep/2026 14:02:17] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 14:02:17,883 - INFO - 127.0.0.1 - - [08/Sep/2026 14:02:17] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-09-08 14:02:17,957 - INFO - 127.0.0.1 - - [08/Sep/2026 14:02:17] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-09-08 14:02:18,292 - INFO - 127.0.0.1 - - [08/Sep/2026 14:02:18] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=HyVRvH0qwMuCamWXiKpI HTTP/1.1" 200 -
+2026-09-08 14:02:18,542 - INFO - 127.0.0.1 - - [08/Sep/2026 14:02:18] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-09-08 14:02:25,153 - INFO - 127.0.0.1 - - [08/Sep/2026 14:02:25] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:11:40,687 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 14:11:40,688 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 14:11:40,689 - INFO -  * Restarting with stat
+2026-09-08 14:11:40,903 - WARNING -  * Debugger is active!
+2026-09-08 14:11:40,906 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 14:11:52,911 - INFO - 127.0.0.1 - - [08/Sep/2026 14:11:52] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:12:22,181 - INFO - 127.0.0.1 - - [08/Sep/2026 14:12:22] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:12:29,037 - INFO - 127.0.0.1 - - [08/Sep/2026 14:12:29] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:12:41,084 - INFO - 127.0.0.1 - - [08/Sep/2026 14:12:41] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:13:00,688 - INFO - 127.0.0.1 - - [08/Sep/2026 14:13:00] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:21:21,496 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\GIT_REST_API\\app.py', reloading
+2026-09-08 14:21:21,536 - INFO -  * Restarting with stat
+2026-09-08 14:22:09,179 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 14:22:09,180 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 14:22:09,181 - INFO -  * Restarting with stat
+2026-09-08 14:22:09,392 - WARNING -  * Debugger is active!
+2026-09-08 14:22:09,394 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 14:22:20,193 - INFO - 127.0.0.1 - - [08/Sep/2026 14:22:20] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:22:34,251 - INFO - 127.0.0.1 - - [08/Sep/2026 14:22:34] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:23:09,310 - INFO - 127.0.0.1 - - [08/Sep/2026 14:23:09] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:23:59,110 - INFO - 127.0.0.1 - - [08/Sep/2026 14:23:59] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:34:47,172 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 14:34:47,173 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 14:34:47,175 - INFO -  * Restarting with stat
+2026-09-08 14:34:47,399 - WARNING -  * Debugger is active!
+2026-09-08 14:34:47,401 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 14:35:01,415 - INFO - 127.0.0.1 - - [08/Sep/2026 14:35:01] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:35:57,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 14:35:57,252 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 14:35:57,253 - INFO -  * Restarting with stat
+2026-09-08 14:35:57,669 - WARNING -  * Debugger is active!
+2026-09-08 14:35:57,672 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 14:36:03,630 - INFO - 127.0.0.1 - - [08/Sep/2026 14:36:03] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:36:29,045 - INFO - 127.0.0.1 - - [08/Sep/2026 14:36:29] "POST /form HTTP/1.1" 200 -
+2026-09-08 14:38:34,329 - INFO - 127.0.0.1 - - [08/Sep/2026 14:38:34] "POST /form HTTP/1.1" 200 -
+2026-09-08 17:03:32,339 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 17:03:32,340 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 17:03:32,341 - INFO -  * Restarting with stat
+2026-09-08 17:03:32,582 - WARNING -  * Debugger is active!
+2026-09-08 17:03:32,584 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 17:03:45,341 - INFO - 127.0.0.1 - - [08/Sep/2026 17:03:45] "POST /form HTTP/1.1" 200 -
+2026-09-08 17:03:56,835 - INFO - 127.0.0.1 - - [08/Sep/2026 17:03:56] "POST /form HTTP/1.1" 200 -
+2026-09-08 17:09:51,769 - INFO - 127.0.0.1 - - [08/Sep/2026 17:09:51] "POST /form HTTP/1.1" 200 -

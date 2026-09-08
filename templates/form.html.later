@@ -1,0 +1,80 @@
+<!doctype>
+<html>
+    <head>
+        <title>This is my first html</title>
+    </head>
+    <body>
+        <div class="calculate">
+            <h1>calculate average marks</h1>
+            <form action="{{url_for('form')}}" method="post">
+            <!-- <input type="text" name="maths" placeholder="maths" required />
+            <input type="text" name="science" placeholder="science" required />
+            <input type="text" name="kannada" placeholder="kannada" required=required /> -->
+            <!-- <input type="text" name="maths" placeholder="Maths" required>
+            <input type="range" name="maths_slider" min="0" max="100">
+
+            <input type="text" name="science" placeholder="science" required>
+            <input type="range" name="science_slider" min="0" max="100">
+
+            <input type="text" name="kannada" placeholder="kannada" required>
+            <input type="range" name="kannada_slider" min="0" max="100"> -->
+            <!-- <label for="maths">Maths Marks:</label>
+            <input type="range"
+                id="maths"
+                name="maths"
+                min="0"
+                max="100"
+                value="50"
+                oninput="this.nextElementSibling.value = this.value">
+
+            <output>50</output> -->
+        <div>
+            <label>Kannada Marks:</label>
+
+            <input type="text" id="kannadaValue" name="kannada" value="50">
+
+            <input type="range"
+                min="0"
+                max="100"
+                value="50"
+                oninput="kannadaValue.value = this.value">
+        </div>
+
+        <br>
+   -----------------------------------------------------------------------------
+
+            <div>
+            <label for="science">science Marks:</label>
+            <input type="range"
+                id="science"
+                name="science"
+                min="0"
+                max="100"
+                value="50"
+                oninput="science.value = this.value">
+
+            <output>50</output>
+            </div>
+            <br>
+-------------------------------------------------------------------------------------
+            
+            <div>
+            <label for="maths">Maths Marks:</label>
+            <input type="range"
+                id="maths"
+                name="maths"
+                min="0"
+                max="100"
+                value="50"
+                oninput="maths.value = this.value">
+
+            <output>50</output>
+            </div>
+            <br>
+---------------------------------------------------------------------------------
+            <button type="submit" class="button">Average</button>
+            </form>
+        </div>
+    </body>
+    <h3>The average marks obtained {{average_marks}}</h3>
+</html>
