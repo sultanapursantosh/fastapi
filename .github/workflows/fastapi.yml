@@ -1,0 +1,61 @@
+name: CI CD for dockerised APP with for fastAPI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  Build-and-Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip' # ⚡ Speeds up test dependency installation
+
+      - name: Install the dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+            
+      - name: Run Tests
+        run: |
+          pytest
+
+  Build-and-Publish:
+    needs: Build-and-Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Docker BuildX
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build and push docker image
+        id: docker_build
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/flasktest_volume-mount-app:latest
+          #tags: |
+            #${{ secrets.DOCKER_USERNAME }}/flasktest-volume-mount-app:latest
+            #${{ secrets.DOCKER_USERNAME }}/flasktest-volume-mount-app:${{ github.sha }}
+          cache-from: type=gha # ⚡ Pulls previous layers from GitHub cache
+          cache-to: type=gha,mode=max # ⚡ Saves layers to GitHub cache for next time
+
+      - name: Image Digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
