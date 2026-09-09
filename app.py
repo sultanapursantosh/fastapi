@@ -1,4 +1,4 @@
-from flask import Flask,render_template,request
+from flask import Flask, render_template, request, jsonify
 import logging
 import os
 
@@ -27,31 +27,59 @@ def home():
 
     return "hello world"
 
-@app.route("/success/<int:score>",methods=["GET"])
-def success(score):
-    return "<h2>person has passed with score "+str(score)+"</h2>"
 
-@app.route("/form",methods=["GET","POST"])
+@app.route("/success/<int:score>", methods=["GET"])
+def success(score):
+    return "<h2>person has passed with score " + str(score) + "</h2>"
+
+
+# Your existing HTML form
+@app.route("/form", methods=["GET", "POST"])
 def form():
-    if request.method=="GET":
+
+    if request.method == "GET":
         return render_template("form.html")
     else:
-        maths=float(request.form["maths"])
-        science=float(request.form["science"])
-        kannada=float(request.form["kannada"])
-        print("Maths value:", maths)
-        print("Maths type:", type(maths))
+        maths = float(request.form["maths"])
+        science = float(request.form["science"])
+        kannada = float(request.form["kannada"])
 
-        print("Science value:", science)
-        print("Science type:", type(science))
+        logger.debug("Entered forms function")
+        logger.info("forms page requested")
+        logger.warning("This is a warning example")
 
-        print("Kannada value:", kannada)
-        print("Kannada type:", type(kannada))
-    average_marks=(maths+science+kannada)/3
-    return render_template("form.html",average_marks=average_marks,
-                            maths=maths,
-                            science=science,
-                            kannada=kannada)
+        average_marks = (maths + science + kannada) / 3
+
+        return render_template(
+            "form.html",
+            average_marks=average_marks,
+            maths=maths,
+            science=science,
+            kannada=kannada
+        )
+
+
+# New JSON API
+@app.route("/api/calculate", methods=["POST"])
+def calculate():
+
+    data = request.get_json()
+
+    print("Received JSON:", data)
+    print("Data type:", type(data))
+
+    maths = float(data["maths"])
+    science = float(data["science"])
+    kannada = float(data["kannada"])
+
+    average_marks = (maths + science + kannada) / 3
+
+    return jsonify({
+        "maths": maths,
+        "science": science,
+        "kannada": kannada,
+        "average": average_marks
+    })
 
 
 if __name__ == "__main__":

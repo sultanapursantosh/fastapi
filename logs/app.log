@@ -306,3 +306,45 @@
 2026-09-08 20:44:03,157 - INFO -  * Debugger PIN: 438-987-695
 2026-09-08 20:44:13,292 - INFO - 127.0.0.1 - - [08/Sep/2026 20:44:13] "POST /form HTTP/1.1" 200 -
 2026-09-08 20:44:18,192 - INFO - 127.0.0.1 - - [08/Sep/2026 20:44:18] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:16:05,609 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.118:5000
+2026-09-08 22:16:05,610 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 22:16:05,611 - INFO -  * Restarting with stat
+2026-09-08 22:16:05,938 - WARNING -  * Debugger is active!
+2026-09-08 22:16:05,941 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 22:16:22,687 - INFO - 127.0.0.1 - - [08/Sep/2026 22:16:22] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:16:30,626 - INFO - 127.0.0.1 - - [08/Sep/2026 22:16:30] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:16:33,252 - INFO - 127.0.0.1 - - [08/Sep/2026 22:16:33] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:16:36,870 - INFO - 127.0.0.1 - - [08/Sep/2026 22:16:36] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:16:42,025 - INFO - 127.0.0.1 - - [08/Sep/2026 22:16:42] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:20:38,583 - INFO - 127.0.0.1 - - [08/Sep/2026 22:20:38] "[33mGET /api/calculator HTTP/1.1[0m" 404 -
+2026-09-08 22:20:51,073 - INFO - 127.0.0.1 - - [08/Sep/2026 22:20:51] "[33mGET /api/calculate HTTP/1.1[0m" 404 -
+2026-09-08 22:22:30,072 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\FASTAPI_JSON\\app.py', reloading
+2026-09-08 22:22:30,133 - INFO -  * Restarting with stat
+2026-09-08 22:22:30,352 - WARNING -  * Debugger is active!
+2026-09-08 22:22:30,354 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 22:22:42,272 - INFO - 127.0.0.1 - - [08/Sep/2026 22:22:42] "GET /form HTTP/1.1" 200 -
+2026-09-08 22:22:51,570 - INFO - 127.0.0.1 - - [08/Sep/2026 22:22:51] "GET /form HTTP/1.1" 200 -
+2026-09-08 22:23:00,483 - INFO - 127.0.0.1 - - [08/Sep/2026 22:23:00] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:26:26,321 - INFO -  * Detected change in 'C:\\Users\\ronad\\OneDrive\\Desktop\\FASTAPI_JSON\\app.py', reloading
+2026-09-08 22:26:26,388 - INFO -  * Restarting with stat
+2026-09-08 22:26:26,635 - WARNING -  * Debugger is active!
+2026-09-08 22:26:26,637 - INFO -  * Debugger PIN: 438-987-695
+2026-09-08 22:26:38,904 - INFO - 127.0.0.1 - - [08/Sep/2026 22:26:38] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:26:43,728 - INFO - 127.0.0.1 - - [08/Sep/2026 22:26:43] "POST /form HTTP/1.1" 200 -
+2026-09-08 22:27:48,009 - INFO - 127.0.0.1 - - [08/Sep/2026 22:27:48] "[31m[1mGET /api/calculate HTTP/1.1[0m" 405 -
+2026-09-08 22:32:45,306 - INFO - 127.0.0.1 - - [08/Sep/2026 22:32:45] "POST /api/calculate HTTP/1.1" 200 -
+2026-09-08 22:33:06,107 - INFO - 127.0.0.1 - - [08/Sep/2026 22:33:06] "POST /api/calculate HTTP/1.1" 200 -
+2026-09-08 22:35:29,199 - INFO - 127.0.0.1 - - [08/Sep/2026 22:35:29] "[35m[1mPOST /form HTTP/1.1[0m" 500 -
+2026-09-08 22:37:36,594 - INFO - 127.0.0.1 - - [08/Sep/2026 22:37:36] "GET /form HTTP/1.1" 200 -
+2026-09-08 22:37:48,683 - INFO - 127.0.0.1 - - [08/Sep/2026 22:37:48] "POST /form HTTP/1.1" 200 -
+2026-09-08 23:19:03,821 - INFO - 127.0.0.1 - - [08/Sep/2026 23:19:03] "POST /form HTTP/1.1" 200 -
+2026-09-08 23:19:19,992 - INFO - 127.0.0.1 - - [08/Sep/2026 23:19:19] "POST /form HTTP/1.1" 200 -
+2026-09-08 23:19:24,502 - INFO - 127.0.0.1 - - [08/Sep/2026 23:19:24] "POST /form HTTP/1.1" 200 -
+2026-09-08 23:21:35,558 - INFO - 127.0.0.1 - - [08/Sep/2026 23:21:35] "POST /form HTTP/1.1" 200 -
+2026-09-08 23:21:40,994 - DEBUG - Entered home() function
+2026-09-08 23:21:40,995 - INFO - Home page requested
+2026-09-08 23:21:40,996 - WARNING - This is a warning example
+2026-09-08 23:21:40,997 - INFO - 127.0.0.1 - - [08/Sep/2026 23:21:40] "GET / HTTP/1.1" 200 -
